@@ -16,7 +16,7 @@ public class Match {
   public Match() {}
   public Match(String id, String title, String venue, String battingTeam, String bowlingTeam) {
     this.id=id; this.title=title; this.venue=venue; this.battingTeam=battingTeam; this.bowlingTeam=bowlingTeam; this.status="LIVE"; this.oversLimit=20;
-    players.put("A. Sharma", new Player("A. Sharma", 42, 27, 3)); players.put("R. Singh", new Player("R. Singh", 28, 19, 2)); players.put("M. Khan", new Player("M. Khan", 0, 0, 1));
+    players.put("A Sharma", new Player("A Sharma", 42, 27, 3)); players.put("R Singh", new Player("R Singh", 28, 19, 2)); players.put("M Khan", new Player("M Khan", 0, 0, 1));
   }
   public record Player(String name, int runs, int balls, int wickets) {}
 }
